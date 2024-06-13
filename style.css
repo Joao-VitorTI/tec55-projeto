@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{margin: 0px auto;}
+#container{
+    background-color: #f7f7f7;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #cdcdcd;
+}
+
+img{
+    width: 70%;
+    padding-left: 15%;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+    text-align: center;
+    line-height: 56px;
+}
+.laranja{
+    color: #FF9900;
+}
+
+p{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7a7878;
+}
+
+#footer{
+    border-bottom: 1px solid #cdcdcd;
+    width: 600px;
+}
+
+@media only screen and (max-width:800px){
+    body{ background-color: #1c1c1c;}
+
+    #container{
+        width: 100%;
+        background-color: #1c1c1c;
+        border: 1px solid #000;
+        color: #f7f7f7;
+    }
+    #footer{
+        width: 100%;
+        background-color: #1c1c1c;
+        border-bottom: 1px solid #cdcdcd;
+    }
+}
